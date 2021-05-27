@@ -1,0 +1,31 @@
+{
+    "name": "shopworks/funhouse",
+    "description": "Rotas made fun",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Matias Navarro-Carter",
+            "email": "mnavarrocarter@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Shopworks\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shopworks\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "ramsey/uuid": "^4.1",
+        "cakephp/chronos": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-dumper": "^5.2"
+    }
+}
